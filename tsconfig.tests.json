@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": false,
+    "noEmit": false,
+    "incremental": false,
+    "rootDir": ".",
+    "outDir": ".test-dist",
+    "types": ["node"]
+  },
+  "include": ["src/lib/training/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", ".next", ".test-dist"]
+}

@@ -1,0 +1,12 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+
+[*.{js,jsx,mjs,cjs,ts,tsx}]
+ij_continuation_indent_size = 2
+ij_javascript_align_multiline_parameters = false
+ij_javascript_align_multiline_parameters_in_calls = false
+ij_typescript_align_multiline_parameters = false
+ij_typescript_align_multiline_parameters_in_calls = false

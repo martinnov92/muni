@@ -1,0 +1,48 @@
+{
+  "name": "muni-skoleni",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test:compile": "tsc -p tsconfig.tests.json",
+    "test": "npm run test:compile && node --test .test-dist/tests/*.test.js"
+  },
+  "dependencies": {
+    "chardet": "2.2.0",
+    "next": "16.4.0",
+    "papaparse": "^5.7.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "10.13.0",
+    "eslint-config-next": "16.4.0",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "eslint-plugin-import": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    }
+  }
+}

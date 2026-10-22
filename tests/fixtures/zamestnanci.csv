@@ -1,0 +1,3 @@
+id_zamestnance,jmeno,prijmeni,email,utvar,pozice,vedouci_email,datum_nastupu,datum_ukonceni,stav,rodne_cislo,poznamka
+E001,Testovací,První,prvni@vzorova.example,Laboratore,Specialista,vedouci@vzorova.example,2020-01-01,,aktivní,SOUKROMY-IDENTIFIKATOR,SOUKROMA-VOLNA-POZNAMKA
+E002,Testovací,Druhá,druha@vzorova.example,Knihovna,Referent,vedouci@vzorova.example,2020-01-01,,aktivní,SOUKROMY-IDENTIFIKATOR,SOUKROMA-VOLNA-POZNAMKA
